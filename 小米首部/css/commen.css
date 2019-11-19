@@ -1,0 +1,17 @@
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 1226px;
+}
+.clearfix:before,
+.clearfix:after{
+    content: '';
+    /* 让为元素变成块级 还让他们排成一行 */
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
