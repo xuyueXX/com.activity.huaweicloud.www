@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 6666px;
+}
+
+.thirdly {
+    padding: 105px 0;
+    margin: 0 auto;
+}
+.thirdly-one {
+    width: 100%;
+    height: 155px;
+    float: right;
+    text-align: center;
+}
+.thirdly-one ul {
+
+    margin-left: 78px;
+    float: left;
+    font-size: 20px;
+}
+.thirdly-one ul h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333333;
+    font-size: 20px;
+
+}
+.thirdly-one ul li {
+    width: 205px;
+    height: 30px;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #333333;
+
+}
+
+.thirdly-one ul a {
+
+    font-size: 11px;
+    font-weight: 600;
+}
+.thirdly-one ul li a:hover{
+    color: #f44d23;
+}
+.thirdly-two a img {
+    float: left;
+    margin-top: 50px;
+	width: 1200px;
+	height: 70px;
+	background-color: #f44d23;
+}
+.beside {
+    position: fixed;
+    left: 1333px;
+    top: 275px;
+}
