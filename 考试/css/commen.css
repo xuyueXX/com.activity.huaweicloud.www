@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
