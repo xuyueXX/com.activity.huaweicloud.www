@@ -73,9 +73,16 @@
 }
 .thirth-top {
     background-color: pink;
+    width: 1096px;
+}
+.thirth-top img {
+    width: 200px;
 }
 .thirth-top h2 {
     font-size: 15px;
+}
+.thirth-left {
+    width: 300px;
 }
 .two {
     background-color: #f5f5f5;
@@ -85,4 +92,8 @@
 }
 .two-top h2 {
     width: 500px;
+}
+.first img {
+    float: left;
+    width: 25px;
 }
