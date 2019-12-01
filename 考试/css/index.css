@@ -71,12 +71,15 @@
     float: left;
     width: 100%;
 }
-.thirth-top {
+/* .thirth-top {
     background-color: pink;
-    width: 1096px;
+} */
+.thirth-right {
+    float: right;
+    width: 250px;
 }
-.thirth-top img {
-    width: 200px;
+.thirth-right img {
+    float: right;
 }
 .thirth-top h2 {
     font-size: 15px;
