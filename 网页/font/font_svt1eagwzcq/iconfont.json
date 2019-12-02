@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1403428",
+      "name": "华为",
+      "font_class": "huawei",
+      "unicode": "e82e",
+      "unicode_decimal": 59438
+    }
+  ]
+}

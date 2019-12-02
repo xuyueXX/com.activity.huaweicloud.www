@@ -1,0 +1,90 @@
+.topnav {
+    width: 100%;
+    height: 50px;
+    background-color: #252b3a;
+}
+.topnav-one {
+    float: left;
+}
+.topnav-one img {
+    margin-left: 40px;
+}
+.topnav-two-left input {
+    float: left;
+    width: 250px;
+    border: none;
+    height: 48px;
+    background-color: #191d28;
+    margin-right: 52px;
+}
+.topnav-two-left li {
+    float: left;
+    font-size: 15px;
+    font-weight: 650;
+    list-style-type: none;
+}
+.topnav-two-left a:hover {
+    color: #f66f6a;
+}
+.topnav-two-left {
+    float: right;
+}
+.topnav-two-left a {
+    float: right;
+    color: #ffffff;
+    margin: 0px 15px;
+    line-height: 50px;
+    text-decoration: none;
+}
+.topnav-two-left p {
+    color: #f66f6a;
+}
+.name {
+    background-color: #f66f6a;
+    width: 115px;
+}
+.name:hover {
+    background-color: 1;
+}
+.topnav-two-left span {
+    margin-left: 40px;
+}
+.topnav-search {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+}
+.searchnav {
+    width: 100%;
+    height: 75px;
+    background-color: #252b3a;
+    border-top: 1px solid #3b414e;
+}
+.searchnav-box {
+    margin-top: 28px;
+    margin-left: 40px;
+}
+.searchnav-box li {
+    float: left;
+    color: #ffffff;
+    margin-right: 40px;
+    font-size: 13px;
+    font-weight: 650;
+    list-style-type: none;
+}
+.jiantou {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 8px;
+    height: 8px;
+    margin-left: 4px;
+    transform-origin: 0 3px;
+    transition: 0.5s;
+    background: url(../img/jiantou.png);
+    background-size: 100% 100%;
+    transform: rotateX(0deg);
+}
