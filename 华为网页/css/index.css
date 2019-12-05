@@ -68,6 +68,11 @@
 .first span {
     color: #f66f6a;
 }
+.first:hover {
+    box-shadow: 10px 10px 3px #e0e5eb;
+    transition: all 1s;
+    /* color: #f66f6a; */
+}
 .name {
     background-color: #f66f6a;
     width: 115px;
@@ -188,6 +193,9 @@
 .safety {
     margin-left: -30px;
 }
+.safety h5:hover {
+    color: #f66f6a;
+}
 .bd{
     background: rgba(246, 111, 106, 0.1);
     
@@ -213,8 +221,8 @@
 .first h5 {
     margin-top: 57px;
     margin-left: 50px;
-    font-weight: 900;
-    font-size: 23px;
+    font-weight: 600;
+    font-size: 24px;
     color: #252b3a;
     line-height: 1;
     margin-left: 46px;
@@ -224,20 +232,23 @@
     width: auto;
 }
 .first p {
-    margin-top: 10px;
+    margin-top: 16px;
     margin-left: 50px;
     background-image: url(../img/picture1.png);
     background-repeat: no-repeat;
+    font-size: 15px;
 }
 .sixthpart-box {
     width: 48px;
     border: 1px solid #dddddd;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 50px;
     padding: 10px;
     display: inline-block;
 }
-
+.sixthpart-box:hover {
+    color: #f66f6a;
+}
 .one-box {
     float: left;
     color: #ffffff;
@@ -249,6 +260,9 @@
 .one-box p {
     font-size: 14px;
     font-weight: normal;
+    color: #a3a5ac;
+    margin-top: 10px;
+
 }
 .eightpart {
     background-color: #212634;
@@ -267,17 +281,37 @@
 .eightpart-midden {
     height: 320px;
     background-color: #252b3a;
+    border: 1px solid #3b414e;
+}
+.eightpart-midden-small {
+    display: inline-block;
 }
 .eightpart-midden-small h2 {
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 18px;
+    margin-top: 64px;
     color: #fff;
 }
 .eightpart-midden-small p {
     font-size: 18px;
     line-height: 22px;
     color: #fff;
+    margin-top: 15px;
+}
+.eightpart-midden-big li {
+    color: #a3a5ac;
+    margin-top: 10px;
+}
+.eightpart-midden-box-h {
+    float: right;
+}
+.eightpart-midden-box-h dl {
+    float: right;
+    color: #fff;
+}
+.eightpart-midden-box-li {
+    width: 150px;
 }
 /* .eightpart-top li {
     float: left;
