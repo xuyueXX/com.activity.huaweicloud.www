@@ -315,10 +315,11 @@
 }
 .eightpart {
     width: 100%;
-    height: 310px;
+    height: 500px;
     background: #191d28;
 }
 .eightpart-left {
+    float: left;
     /* background-color: red; */
     width: 315px;
     height: 100%;
@@ -330,19 +331,49 @@
     width: 110px;
     height: 60px;
     float: left;
-    font-size: 14px;
-    margin-top: 14px;
+    /* font-size: 14px; */
+    /* margin-top: 14px; */
     /* margin-top: 50px; */
 }
 .eightpart-left-top span {
     margin-top: 15px;
+    color: #fff;
 }
-/* .eightpart-left-top h2 {
+.eightpart-left-top li a {
     font-size: 14px;
-    margin-top: 50px;
-
-    /* color: #ffffff; 
-} */
-.eightpart-left li>a {
     color: #ffffff;
+    /* margin-top: 15px; */
 }
+.eightpart-left-bottom a {
+    color: #bec0c4;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.eightpart-right {
+    float: right;
+    /* border-left:1px solid #ffffff; */
+}
+.eightpart-right dl {
+    float: right;
+    width: 147px;
+    padding-left: 30px;
+    /* border-left: 1px solid #ffffff; */
+    font-size: 14px;
+    color: #bec0c4;
+}
+.eightpart-right dt {
+    color: #fff;
+    margin-bottom: 15px;
+}
+/* .hua {
+    border-left: 1px solid #ffffff;
+} */
+.eightpart-right dd {
+    margin-top: 5px;
+}
+/* .eightpart-right dl {
+    float: right;
+}
+.eightpart-right dd {
+    float: right;
+} */
