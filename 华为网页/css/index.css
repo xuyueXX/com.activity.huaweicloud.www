@@ -1,8 +1,6 @@
 .firstpart {
-    /* width: 100%; */
     height: 50px;
     background-color: #252b3a;
-    /* position: fixed; */
 }
 .firstpart-one {
     float: left;
@@ -131,21 +129,11 @@
     height: 49px;
     background-color: #252b3a;
 }
-/* .topnav-search {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: -10px;
-    padding-bottom: 10px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
-} */
-
 .twopart {
     /* width: 100%; */
     height: 75px;
     background-color: #252b3a;
     border-top: 1px solid #3b414e;
-    /* position: fixed; */
 }
 .twopart-box {
     margin-top: 28px;
@@ -158,7 +146,6 @@
     font-weight: 650;
     background-repeat: no-repeat;
     width: 128px;
-    /* background: url(../img/jiantou.png) no-repeat; */
     margin-right: -30px;
 }
 .twopart-box img {
@@ -199,11 +186,9 @@
     background: url(../font/spriteicons.svg) no-repeat 126px 15px #ffffff;
 }
 .fourpart-box li {
-    /* margin-top: 25px; */
     margin-left: 163px;
     float: left;
     font-size: 17px;
-    /* background-image: url(); */
 }
 .new li {
     line-height: 65px;
@@ -219,7 +204,6 @@
 }
 .fifthpart-top p {
     float: left;
-    /* width: 100%; */
     height: 25px;
     font-size: 20px;
     font-weight: 600;
@@ -230,7 +214,6 @@
 }
 .fifthpart-list {
     float: left;
-    /* width: 100%; */
     height: 25px;
 
 }
@@ -264,7 +247,6 @@
     color: #f66f6a;
 }
 .sixthpart {
-    /* width: 100%; */
     height: 100%;
     background-color: #f3f8ff;
 }
@@ -304,7 +286,6 @@
     height: 90px;
 }
 .sevenpart-top {
-    /* width: 100%; */
     height: 260px;
     position: relative;
     max-width: 1200px;
@@ -315,49 +296,57 @@
 }
 .eightpart {
     width: 100%;
-    height: 500px;
-    background: #191d28;
+    height: 310px;
+    background: #252b3a;
 }
 .eightpart-left {
     float: left;
-    /* background-color: red; */
-    width: 315px;
-    height: 100%;
+    width: 290px;
+    margin-top: 25px;
     color: #ffffff;
     margin-bottom: 15px;
-    /* margin-top: 50px; */
 }
 .eightpart-left-top {
     width: 110px;
     height: 60px;
     float: left;
-    /* font-size: 14px; */
-    /* margin-top: 14px; */
-    /* margin-top: 50px; */
+}
+.eightpart-left-top h2 {
+    font-size: 20px;
 }
 .eightpart-left-top span {
-    margin-top: 15px;
+    /* margin-top: 20px; */
+    font-size: 20px;
     color: #fff;
 }
-.eightpart-left-top li a {
+.eightpart-left-top li {
     font-size: 14px;
     color: #ffffff;
     /* margin-top: 15px; */
 }
-.eightpart-left-bottom a {
-    color: #bec0c4;
+.eightpart-left-bottom {
+    width: 100%;
+    height: 145px;
+}
+.eightpart-left-bottom li {
     font-size: 15px;
+    margin-top: 15px;
+}
+.eightpart-left-bottom a {
+    font-size: 14px;
+    color: #bec0c4;
+}
+.zixun {
     margin-top: 15px;
 }
 .eightpart-right {
     float: right;
-    /* border-left:1px solid #ffffff; */
+    margin-top: 25px;
+    border-left:1px solid #454850;
 }
 .eightpart-right dl {
-    float: right;
-    width: 147px;
-    padding-left: 30px;
-    /* border-left: 1px solid #ffffff; */
+    float: left;
+    padding-left: 83px;
     font-size: 14px;
     color: #bec0c4;
 }
@@ -365,15 +354,50 @@
     color: #fff;
     margin-bottom: 15px;
 }
-/* .hua {
-    border-left: 1px solid #ffffff;
-} */
 .eightpart-right dd {
-    margin-top: 5px;
+    margin-top: 7px;
 }
-/* .eightpart-right dl {
+.ninepart {
     float: right;
+    width: 100%;
+    /* height: 135px; */
+    border-top: 1px solid #454850;
+    border-bottom: 1px solid #454850;
+    background-color: #252b3a;
 }
-.eightpart-right dd {
-    float: right;
+.ninepart-box {
+    width: 1336px;
+    /* height: 135px; */
+}
+.ninepart-box dl {
+    float: left;
+    margin-right: 45px;
+    color: #ffffff;
+}
+.ninepart-box dt {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 25px;
+}
+.ninepart-box dd {
+    font-size: 12px;
+    color: #bec0c4;
+    margin-top: 25px;
+}
+.tenpart {
+    height: 250px;
+    background-color: #252b3a;
+}
+/* .tenpart-box {
+    height: 250px;
+    
 } */
+.tenpart-box span {
+    /* float: right; */
+    margin-top: 15px;
+    color: #ffffff;
+}
+.tenpart-box a {
+    color: #ffffff;
+}
