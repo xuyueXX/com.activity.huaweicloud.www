@@ -497,3 +497,6 @@
   width: 100%;
   height: 15px;
 }
+.footnav li a:hover{
+  color: #ca1327;
+}
