@@ -7,21 +7,57 @@ html,body {
 header {
   position: relative;
   width: 100%;
-  height: calc(88rem / 32);
+  height: calc(88rem / 64);
   background-color: #ff9b25;
+  /* overflow: hidden */
 }
 header i {
   position: absolute;
-  top: calc(28rem / 32);
-  left:calc(20rem / 32);
-  width: calc(20rem / 32);
-  height: calc(32rem / 32);
+  top: calc(28rem / 64);
+  left:calc(20rem / 64);
+  width: calc(20rem / 64);
+  height: calc(32rem / 64);
   background-image: url(../img/back_icon.png);
-  background-size: calc(20rem / 32) calc(32rem / 32);
+  background-size: calc(20rem / 64) calc(32rem / 64);
 }
 header span {
-  font-size: calc(32rem / 32);
-  line-height: calc(88rem / 32) ;
-  margin-left: calc(56rem / 32);
+  font-size: calc(32rem / 64);
+  line-height: calc(88rem / 64) ;
+  margin-left: calc(56rem / 64);
   color: #fff;
+}
+header p {
+  font-size: calc(26rem / 64);
+  margin-left: calc(27rem / 64);
+  line-height: calc(82rem / 64);
+}
+header b {
+  padding-left: calc(452rem / 64);
+  color: #888888;
+}
+header .box {
+  margin: calc(26rem / 64);
+  height: calc(220rem / 64);
+  border:  calc(3rem / 64) dashed #dedede;
+  background-color: #f7f4f1;
+}
+header img {
+  
+  /* padding: calc(26rem / 64); */
+  margin-left: calc(180rem / 64);
+}
+header .tips {
+  /* line-height: calc(82rem / 64); */
+  margin-top: calc(126rem / 64);
+}
+
+header .tips h2 {
+  margin-left: calc(27rem / 64);
+  font-size: calc(20rem / 64);
+  color: #888888;
+}
+header .tips li {
+  list-style: none;
+  color: #888888;
+  margin-left: calc(27rem / 64);
 }
