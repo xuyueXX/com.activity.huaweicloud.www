@@ -11,6 +11,9 @@ header {
   background-color: #ff9b25;
   /* overflow: hidden */
 }
+.big {
+  width: 100%;
+}
 header i {
   position: absolute;
   top: calc(28rem / 64);

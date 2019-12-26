@@ -10,6 +10,9 @@ header {
   height: calc(88rem / 64);
   background-color: #ff9b25;
 }
+/* .big-box {
+  background-color: #dedede;
+} */
 header i {
   position: absolute;
   top: calc(28rem / 64);
@@ -26,8 +29,9 @@ header span {
   color: #fff;
 }
 header .big {
+  /* width: 587px; */
   font-size: calc(26rem / 64);
-  margin-left: calc(27rem / 64);
+  /* margin-left: calc(27rem / 64); */
   line-height: calc(82rem / 64);
   overflow: hidden;
 }
@@ -39,4 +43,35 @@ header h3 {
 }
 header b {
   float: right;
+  margin-right: calc(26rem / 64);
+}
+header .second {
+  position: relative;
+  background-color: #dedede;
+}
+header .second img {
+  width: calc(587rem / 64);
+  margin-left: 13px;
+}
+header .picture {
+  position: absolute;
+  top: 126px;
+  left: 24px;
+}
+
+header .second p {
+  position: absolute;
+  top: 60px;
+  left: 31px;
+  color: #fff;
+  font-size: calc(41rem / 64);
+
+}
+header .second span {
+  position: absolute;
+  color: #bdf3ce;
+  top: 82px;
+  left: 6px;
+
+
 }
