@@ -182,7 +182,7 @@
   background-color: #fafafa;
 }
 .fourpart-box {
-  height: 500px;
+  height: 100%;
   text-align: center;
 }
 .fourpart-box h3{
@@ -202,7 +202,7 @@
   width: 380px;
   height: 320px;
   border: 1px solid #fff;
-  float: right;
+  float: left;
   /* margin: auto; */
   margin-left: 18px;
   background-color: #fff;
@@ -234,61 +234,34 @@
   float: left;
 }
 
-
-
-
 .fifthpart {
+  /* height: 100%; */
   background-color: #fafafa;
 }
-.fifthpart-box {
-  height: 500px;
-  text-align: center;
-}
-.fifthpart-box h3{
-  display: inline-block;
-  position: relative;
-  padding-left: 42px;
-  padding-right: 42px;
+.fifthpart-title h3 {
+  /* display: inline-block; */
   font-weight: 700;
   font-size: 24px;
-  line-height: 120px;
   color: #252b3a;
+  text-align: center;
+  line-height: 40px;
 }
-.fifthpart-box ul {
+.fifthpart-main {
+  height: 700px;
+  text-align: center;
+}
+.fifthpart-main ul {
   float: left;
 }
-.fifthpart-box li{
+.fifthpart-main li {
   width: 380px;
   height: 320px;
   border: 1px solid #fff;
   float: right;
-  /* margin: auto; */
   margin-left: 18px;
+  margin-top: 60px;
   background-color: #fff;
 }
-.fifthpart-box .zheng {
-  display: inline-block;
-  margin-top: 40px;
-  width: 60px;
-  height: 61px;
-  background-image: url(../img/蓝运营商.svg);
-  background-position: 60px 2px;
-}
-.fifthpart-box .jin {
-  background-image: url(../img/蓝金融.svg);
-}
-.fifthpart-box .yun {
-  background-image: url(../img/蓝政府.svg);
-}
-.fifthpart-box h2 {
-  font-weight: 600;
-  font-size: 18px;
-  margin-top: 50px;
-}
-.fifthpart-box p {
-  font-size: 14px;
-  color: #575d6c;
-  text-align: center;
-  margin-top: 40px;
-  float: left;
+.fifthpart-main h2 {
+  padding-top: 170px;
 }
