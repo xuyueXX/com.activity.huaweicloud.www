@@ -234,34 +234,123 @@
   float: left;
 }
 
-.fifthpart {
-  /* height: 100%; */
+
+
+
+.fourpart {
   background-color: #fafafa;
 }
-.fifthpart-title h3 {
-  /* display: inline-block; */
+.fourpart-box {
+  height: 100%;
+  text-align: center;
+}
+.fourpart-box h3{
+  display: inline-block;
+  position: relative;
+  padding-left: 42px;
+  padding-right: 42px;
   font-weight: 700;
   font-size: 24px;
+  line-height: 120px;
   color: #252b3a;
-  text-align: center;
-  line-height: 40px;
 }
-.fifthpart-main {
-  height: 700px;
-  text-align: center;
-}
-.fifthpart-main ul {
+.fourpart-box ul {
   float: left;
 }
-.fifthpart-main li {
+.fourpart-box li{
   width: 380px;
   height: 320px;
   border: 1px solid #fff;
-  float: right;
+  float: left;
+  /* margin: auto; */
   margin-left: 18px;
-  margin-top: 60px;
   background-color: #fff;
 }
-.fifthpart-main h2 {
-  padding-top: 170px;
+.fourpart-box i {
+  display: inline-block;
+  margin-top: 40px;
+  width: 60px;
+  height: 61px;
+  background-image: url(../img/蓝运营商.svg);
+  background-position: 60px 2px;
+}
+.fourpart-box .one {
+  background-image: url(../img/蓝金融.svg);
+}
+.fourpart-box .two {
+  background-image: url(../img/蓝政府.svg);
+}
+.fourpart-box h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 50px;
+}
+.fourpart-box p {
+  font-size: 14px;
+  color: #575d6c;
+  text-align: center;
+  margin-top: 40px;
+  float: left;
+}
+
+
+
+
+
+.fifthpart {
+  background-color: #fafafa;
+}
+.fifthpart-box {
+  height: 100%;
+  text-align: center;
+}
+.fifthpart-box h3{
+  display: inline-block;
+  position: relative;
+  padding-left: 42px;
+  padding-right: 42px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120px;
+  color: #252b3a;
+}
+.fifthpart-box-top ul {
+  float: left;
+}
+.fifthpart-box-top li{
+  width: 380px;
+  height: 320px;
+  border: 1px solid #fff;
+  float: left;
+  /* margin: auto; */
+  margin-left: 18px;
+  background-color: #fff;
+}
+.fifthpart-box-top i {
+  display: inline-block;
+  margin-top: 40px;
+  width: 60px;
+  height: 61px;
+  background-image: url(../img/蓝运营商.svg);
+  background-position: 60px 2px;
+  /* margin: auto; */
+}
+.fifthpart-box-top .one {
+  background-image: url(../img/蓝金融.svg);
+}
+.fifthpart-box-top .two {
+  background-image: url(../img/蓝政府.svg);
+}
+.fifthpart-box-top h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 50px;
+  text-align: center;
+}
+.fifthpart-box-top p {
+  font-size: 14px;
+  color: #575d6c;
+  text-align: center;
+  margin-top: 40px;
+  float: left;
 }

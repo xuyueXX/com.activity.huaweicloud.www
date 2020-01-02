@@ -1,5 +1,98 @@
-.box {
-  width: 50px;
-  height: 50px;
-  background-color: red;
+
+@media screen and (max-width:780px) {
+  .onepart {
+    width: 1280px;
+  }
+}
+
+
+
+html,body {
+  /* height: 100000px; */
+  height: 100%;
+}
+.onepart{
+  width: 100%;
+  display: flex;
+}
+.onepart-box {
+  width: 100%;
+  height: 54px;
+   background-color: #252b3a;
+}
+.onepart-box i{
+  display: inline-block;
+  width: 88px;
+  height: 36px;
+  background-image: url(../svg/header-logo.svg);
+  background-repeat: no-repeat;
+}
+.onepart-box-top {
+  width: 135px;
+  height: 44px;
+  float: right;
+}  
+.onepart-box-top span{
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../font/header-header-search.png);
+  width: 22px;
+  height: 22px;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  margin-right: 17px;
+}
+.onepart-box-top p{
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../font/header-header-user.png);
+  width: 22px;
+  height: 22px;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  margin-right: 17px;
+}
+/* .onepart-box-bottom {
+  width: 38px;
+  height: 44px;
+background-color: red;
+}
+.onepart-box-bottom span {
+  float: right;
+  border: 2px solid red;
+} */
+.twopart img {
+  width: 100%;
+}
+.threepart {
+  position: relative;
+}
+.threepart img {
+  width: 100%;
+  position: absolute;
+}
+.threepart h2{
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  margin-left: 8px;
+}
+.threepart span {
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 50px;
+  color: #6f7480;
+}
+.threepart-box-top {
+  width: 100%;
+  height: 510px;
+}
+
+.threepart-box-top i {
+  width: 45px;
+  height: 54px;
+  background-image: url(../font/homepage-ftci.jpg);
+  background-position: -15px -16px;
 }
