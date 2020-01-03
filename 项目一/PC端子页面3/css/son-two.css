@@ -16,10 +16,7 @@
 .firstpart-one img {
   margin-left: 40px;
 }
-.firstpart-two-left {
-  float: right;
 
-}
 .firstpart-two button {
   float: left;
   width: 50px;
@@ -30,117 +27,80 @@
   margin-right: 45px;
   background-color: #191d28;
 }
+.firstpart-two-left {
+float: right;
+}
 .firstpart-two-left input {
-  float: left;
-  width: 250px;
-  border: none;
-  height: 50px;
-  background-color: #191d28;
-  color: #ffffff;
-  padding-left: 19px;
-  font-size: 15px;
-  font-weight: 600;
+float: left;
+width: 250px;
+border: none;
+height: 50px;
+background-color: #191d28;
+color: #ffffff;
+padding-left: 19px;
+font-size: 15px;
+font-weight: 600;
 }
 .firstpart-two-left input:hover {
-  transform: top 0.3s;
+transform: top 0.3s;
 }
 .firstpart-two-left li {
-  float: left;
-  font-size: 15px;
-  font-weight: 650;
-  height: 48px;
-  margin-right: -40px;
-  line-height: 50px;
+float: left;
+font-size: 15px;
+font-weight: 650;
+height: 48px;
+margin-right: -40px;
+line-height: 50px;
 }
 .firstpart-two-left a {
-  float: right;
-  width: 96px;
-  color: #ffffff;
-  /* margin: 0px 15px; */
-  /* line-height: 50px; */
+float: right;
+width: 96px;
+color: #ffffff;
 }
 .firstpart-two-left a:hover {
-  color: #f66f6a;
+color: #f66f6a;
 }
 .firstpart-two-left p {
-  color: #ffffff;
-  margin-left: 23px;
+color: #ffffff;
+margin-left: 23px;
 }
 
 .firstpart-two-left span {
-  margin-left: 40px;
-  background-color: #f66f6a;
-  width: 115px;
-  color: #ffffff;
+margin-left: 40px;
+background-color: #f66f6a;
+width: 115px;
+color: #ffffff;
 }
-.first span {
-  color: #f66f6a;
+.firstpart-two-left i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/jiantou.png);
+  background-position: -15px -15px;
+  background-size: 15px;
+
 }
-.first:hover {
-  box-shadow: 10px 10px 3px #e0e5eb;
-  transition: all 1s;
-  color: #f66f6a;
+.firstpart-two-left h2 {
+color: #ffffff;
 }
+.firstpart-two-left img {
+margin-bottom: -4px;
+margin-left: 5px;
+}
+.stand{
+width: 152px;
+height: 49px;
+background-color: #252b3a;
+}
+
 .name {
   background-color: #f66f6a;
   width: 115px;
 }
-.firstpart-two-left li i {
-  width: 50px;
-  height: 50px;
 
-}
-.firstpart-two-left h2 {
-  color: #ffffff;
-}
-.firstpart-two-left img {
-  margin-bottom: -4px;
-  margin-left: 5px;
-}
-.first {
-  float: left;
-  width: 350px;
-  height: 192px;
-  margin-right: 40px;
-  margin-top: 40px;
-  /* border: 1px solid #191d28; */
-  background-color: #ffffff;
-  margin-bottom: 20px;
-}
-.first h5 {
-  margin-top: 57px;
-  margin-left: 50px;
-  font-weight: 600;
-  font-size: 24px;
-  color: #252b3a;
-  line-height: 1;
-  margin-left: 46px;
-  border-bottom: none;
-  position: relative;
-  display: inline-block;
-  width: auto;
-}
-.first p {
-  margin-top: 16px;
-  margin-left: 50px;
-  /* background: url(../img/picture1.png); */
-  /* background-position: center; */
-  background-repeat: no-repeat;
-  font-size: 15px;
-}
-.first img {
-  float: right;
-  width: 107px;
-  margin-top: -24px;
-  height: 95px;
-}
-.stand{
-  width: 152px;
-  height: 49px;
-  background-color: #252b3a;
-}
+
+
 .twopart {
-  /* width: 100%; */
   height: 75px;
   background-color: #252b3a;
   border-top: 1px solid #3b414e;
@@ -173,10 +133,16 @@
   display: inline-block;
   padding: 15px;
   width: 154px;
+  /* fifthpart-list-style-type: none; */
+}
+.English {
+  /* fifthpart-list-style: none; */
+  width: 250ox;
+  height: 250px;
 }
 .threepart img {
   width: 100%;
-  margin-top: 126px;
+
 }
 .fourpart {
   background-color: #fafafa;
@@ -212,14 +178,14 @@
   margin-top: 40px;
   width: 60px;
   height: 61px;
-  background-image: url(../img/蓝运营商.svg);
+  background-image: url(../svg/蓝金融.svg);
   background-position: 60px 2px;
 }
 .fourpart-box .one {
-  background-image: url(../img/蓝金融.svg);
+  background-image: url(../svg/购买时间越长，付费越少-pc.svg);
 }
 .fourpart-box .two {
-  background-image: url(../img/蓝政府.svg);
+  background-image: url(../svg/蓝政府.svg);
 }
 .fourpart-box h2 {
   font-weight: 600;
@@ -271,14 +237,14 @@
   margin-top: 40px;
   width: 60px;
   height: 61px;
-  background-image: url(../img/蓝运营商.svg);
+  background-image: url(../svg/按小时付费-pc.svg);
   background-position: 60px 2px;
 }
 .fourpart-box .one {
-  background-image: url(../img/蓝金融.svg);
+  background-image: url(../svg/使用量越多，付费越少-pc.svg);
 }
 .fourpart-box .two {
-  background-image: url(../img/蓝政府.svg);
+  background-image: url(../svg/按小时付费-pc.svg);
 }
 .fourpart-box h2 {
   font-weight: 600;
@@ -314,6 +280,9 @@
   line-height: 120px;
   color: #252b3a;
 }
+.fifthpart-box-top {
+  height: 776px;
+}
 .fifthpart-box-top ul {
   float: left;
 }
@@ -325,21 +294,23 @@
   /* margin: auto; */
   margin-left: 18px;
   background-color: #fff;
+  margin-top: 30px;
 }
 .fifthpart-box-top i {
   display: inline-block;
   margin-top: 40px;
   width: 60px;
   height: 61px;
-  background-image: url(../img/蓝运营商.svg);
+  background-image: url(../svg/按小时付费-pc.svg);
   background-position: 60px 2px;
+  margin-left: 158px;
   /* margin: auto; */
 }
 .fifthpart-box-top .one {
-  background-image: url(../img/蓝金融.svg);
+  background-image: url(../svg/蓝金融.svg);
 }
 .fifthpart-box-top .two {
-  background-image: url(../img/蓝政府.svg);
+  background-image: url(../svg/蓝政府.svg);
 }
 .fifthpart-box-top h2 {
   font-weight: 600;
@@ -353,4 +324,198 @@
   text-align: center;
   margin-top: 40px;
   float: left;
+}
+
+.sixpart-box h3 {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.sixpart-box img {
+  width: 140px;
+  height: 60px;
+  margin-right: 96px;
+  margin-top: 88px;
+  margin-bottom: 78px;
+}
+
+
+
+
+
+
+
+
+.sevenpart {
+  background-color: #212634;
+  height: 90px;
+}
+.sevenpart-top {
+  height: 260px;
+  position: relative;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.one-box {
+position: relative;
+width: 100%;
+height: 90px;
+}
+.one-box  li i {
+position: absolute;
+/* left: 67px; */
+top: 50%;
+width: 40px;
+height: 40px;
+margin-top: -20px;
+background-size: 100% 100%;
+}
+.one-box .zhong{
+background-image: url(../svg/footer-feedback.svg);
+}
+.one-box .zhong-a {
+background-image: url(../svg/footer-unsub.svg);
+}
+.one-box .zhong-b {
+background-image: url(../svg/footer-record.svg);
+}
+.one-box .zhong-c {
+background-image: url(../svg/footer-feedback.svg);
+}
+.one-box .zhong-d {
+background-image: url(../svg/footer-vip.svg);
+}
+.one-box ul {
+float: left;
+color: #ffffff;
+margin: 28px 67px;
+}
+.one-box li {
+float: left;
+width: 209px;
+}
+.one-box li h2 {
+font-size: 20px;
+color: #fff;
+margin-left: 50px;
+}
+.one-box li p {
+font-size: 14px;
+font-weight: normal;
+color: #a3a5ac;
+margin-top: 10px;
+margin-left: 50px;
+
+}
+.eightpart {
+  width: 100%;
+  height: 324px;
+  background: #252b3a;
+}
+.eightpart-left {
+  float: left;
+  width: 290px;
+  margin-top: 25px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.eightpart-left-top {
+  width: 110px;
+  height: 60px;
+  float: left;
+}
+.eightpart-left-top h2 {
+  font-size: 20px;
+}
+.eightpart-left-top p {
+  /* margin-top: 20px; */
+  font-size: 20px;
+  color: #fff;
+}
+.eightpart-left-top li {
+  font-size: 14px;
+  color: #ffffff;
+  /* margin-top: 15px; */
+}
+.eightpart-left-bottom {
+  width: 100%;
+  height: 145px;
+}
+.eightpart-left-bottom li {
+  font-size: 15px;
+  margin-top: 15px;
+}
+.eightpart-left-bottom a {
+  font-size: 14px;
+  color: #bec0c4;
+}
+.zixun {
+  margin-top: 15px;
+}
+.eightpart-right {
+  float: right;
+  margin-top: 25px;
+  border-left:1px solid #454850;
+}
+.eightpart-right dl {
+  float: left;
+  padding-left: 83px;
+  font-size: 14px;
+  color: #bec0c4;
+}
+.eightpart-right dt {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.eightpart-right dd {
+  margin-top: 7px;
+}
+.ninepart {
+  /* float: right; */
+  width: 100%;
+  height: 135px;
+  border-top: 1px solid #454850;
+  border-bottom: 1px solid #454850;
+  background-color: #252b3a;
+}
+.ninepart-box {
+  width: 1336px;
+  /* height: 135px; */
+}
+.ninepart-box dl {
+  float: left;
+  margin-right: 45px;
+  color: #ffffff;
+}
+.ninepart-box dt {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 25px;
+}
+.ninepart-box dd {
+  font-size: 12px;
+  color: #bec0c4;
+  margin-top: 25px;
+}
+.tenpart {
+  height: 65px;
+  background-color: #252b3a;
+}
+.tenpart-box {
+  margin-top: 15px;
+  
+}
+.tenpart-box span {
+  margin-right: 15px;
+  color: #ffffff;
+}
+.tenpart-box a {
+  margin-right: 5px;
+  color: #ffffff;
 }

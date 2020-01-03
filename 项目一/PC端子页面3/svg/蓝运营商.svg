@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>专题页图标-0727</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M28.2328893,7.0089118 C28.7563608,6.93855458 29.244285,7.28742881 29.3470036,7.80552282 L29.3470036,7.80552282 L30.5365792,13.8055228 C30.643986,14.3472628 30.2918894,14.8735003 29.7501494,14.980907 C29.2084094,15.0883138 28.6821719,14.7362172 28.5747651,14.1944772 L28.5747651,14.1944772 L27.7479997,10.0299025 L20.2411282,20.0874319 C19.9494607,20.47816 19.4237139,20.597294 18.9968637,20.3859025 L18.8924042,20.3261346 L14.321171,17.3363201 L8.7144277,23.0610016 C8.32798894,23.4555692 7.69485825,23.4621588 7.30029073,23.0757201 C6.90572321,22.6892813 6.89913354,22.0561506 7.2855723,21.6615831 L7.2855723,21.6615831 L13.4668895,15.3502415 C13.8008543,15.0092517 14.3292452,14.9518051 14.7286859,15.2130593 L14.7286859,15.2130593 L19.2006104,18.1379208 L25.7519997,9.3599025 L21.6888794,9.90644368 C21.1806139,9.97475714 20.710286,9.64846015 20.5867865,9.16324838 L20.564584,9.04856274 C20.4910156,8.50119984 20.875102,7.99783562 21.4224649,7.92426727 L21.4224649,7.92426727 Z" id="path-1"></path>
+        <filter x="-89.1%" y="-128.4%" width="278.3%" height="356.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.904420732   0 0 0 0 0.927057927   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="专题页图标-0727" transform="translate(-540.000000, -4545.000000)">
+            <g id="编组-84" transform="translate(540.000000, 4545.000000)">
+                <rect id="矩形" x="0" y="0" width="60" height="60"></rect>
+                <g id="编组-83" transform="translate(0.000000, 2.000000)">
+                    <path d="M51,0 L3,0 C1.34314575,3.04359188e-16 -2.02906125e-16,1.34314575 0,3 L0,41 C2.02906125e-16,42.6568542 1.34314575,44 3,44 L51,44 C52.6568542,44 54,42.6568542 54,41 L54,3 C54,1.34314575 52.6568542,-3.04359188e-16 51,0 Z" id="Path-73复制" fill="#96ADFA"></path>
+                    <path d="M45.1091871,21.192483 L45.1092657,21.192528 L55.8876331,27.3557249 C57.5035028,28.2786394 58.5,29.9875739 58.5,31.8381135 L58.5,44.1633195 C58.5,46.0126453 57.5033115,47.7214699 55.8878475,48.6441525 L45.1091871,54.807517 C43.4937971,55.7308277 41.5062029,55.7308277 39.8907343,54.807472 L29.1123669,48.6442751 C27.4966885,47.7214699 26.5,46.0126453 26.5,44.1633195 L26.5,31.8381135 C26.5,29.9875739 27.4964972,28.2786394 29.1121525,27.3558475 L39.8908129,21.192483 C41.5062029,20.2691723 43.4937971,20.2691723 45.1091871,21.192483 Z" id="Fill-51备份-2" stroke="#FAFAFA" fill="#2A3C85" stroke-linejoin="round"></path>
+                    <path d="M40.1389291,21.6265779 C41.6005789,20.7911407 43.3994211,20.7911407 44.8610709,21.6265779 L44.8610709,21.6265779 L54,26.852 L54,41 C54,42.5976809 52.75108,43.9036609 51.1762728,43.9949073 L51,44 L27,44 L27,31.8381135 C27,30.243188 27.8201732,28.7644685 29.1647322,27.9079673 L29.3603473,27.7898974 Z" id="形状结合" fill="#5E7CE0"></path>
+                    <g id="形状结合">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

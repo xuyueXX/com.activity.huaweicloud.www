@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>专题页图标-0727</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M110,4554 C114.418278,4554 118,4557.58172 118,4562 C118,4566.41828 114.418278,4570 110,4570 C105.581722,4570 102,4566.41828 102,4562 C102,4557.58172 105.581722,4554 110,4554 Z M110,4556 L108.236644,4559.57295 L104.293661,4560.1459 L107.14683,4562.92705 L106.473288,4566.8541 L110,4565 L113.526712,4566.8541 L112.85317,4562.92705 L115.706339,4560.1459 L111.763356,4559.57295 L110,4556 Z" id="path-1"></path>
+        <filter x="-150.0%" y="-150.0%" width="400.0%" height="400.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="专题页图标-0727" transform="translate(-94.000000, -4545.000000)">
+            <g id="编组-80" transform="translate(94.000000, 4545.000000)">
+                <g id="编组-79">
+                    <rect id="矩形" x="0" y="0" width="60" height="60"></rect>
+                    <path d="M0,48 L0,4 C-2.02906125e-16,2.34314575 1.34314575,1 3,1 L29,1 C30.6568542,1 32,2.34314575 32,4 L32.0000889,20.1706743 C32.3128427,20.0601428 32.6493978,20 33,20 L48,20 C49.6568542,20 51,21.3431458 51,23 L51,48 L30,48 L0,48 Z" id="形状结合" fill="#96ADFA"></path>
+                    <path d="M50.3880212,40.1149867 L51.9856053,40.2845497 C56.2257881,40.7345905 59.5,44.6636509 59.5,49.3511411 C59.5,54.3805082 55.6911827,58.5 51.0711462,58.5 L32.9288538,58.5 C28.3088173,58.5 24.5,54.3805082 24.5,49.3511411 C24.5,44.6636509 27.7742119,40.7345905 32.0143947,40.2845497 L33.6119788,40.1149867 L34.0933371,38.6142185 C35.2709542,34.9426701 38.4167474,32.5 42,32.5 C45.5832526,32.5 48.7290458,34.9426701 49.9066629,38.6142185 L50.3880212,40.1149867 Z" id="蒙版" stroke="#FAFAFA" fill="#2A3C85"></path>
+                    <path d="M42,33 C45.3614299,33 48.318135,35.2986533 49.4305534,38.7669264 L49.4305534,38.7669264 L50.0113816,40.5778197 L50.9991795,40.682 L51,48 L25.0961795,48.000554 C25.6502512,44.1494268 28.5338762,41.1567703 32.0671668,40.781757 L32.0671668,40.781757 L33.9886184,40.5778197 L34.5694466,38.7669264 C35.681865,35.2986533 38.6385701,33 42,33 Z" id="形状结合" fill="#5E7CE0"></path>
+                </g>
+            </g>
+            <g id="形状结合">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
