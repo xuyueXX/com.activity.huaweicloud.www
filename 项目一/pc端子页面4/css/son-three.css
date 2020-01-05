@@ -167,16 +167,14 @@ body {
   margin-left: 15px;
   line-height: 60px;
 }
-.twopart-box li {
-  float: left;
-  /* margin-left: -81px; */
-}
+
 .twopart-box span {
   font-size: 14px;
   color: #fff;
 
 }
 .twopart-box li{
+  float: left;
   display: block;
   padding: 15px 15px;
   font-size: 14px;
