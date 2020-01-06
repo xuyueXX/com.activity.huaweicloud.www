@@ -13,17 +13,17 @@ html,body {
 .big-box {
   position: fixed;
   width: 100%;
-  height: 100%;
+  top:0;
 }
 .onepart {
   width: 100%;
-  height: 52px;
+  height: calc(176rem / 64);
   background-color: #d43d3d;
   display: inline-block;
 }
 .onepart-left {
   width: 100%;
-  height: 52px;
+  height: calc(176rem / 64);
   /* display: inline-block; */
   /* float: left; */
 }
@@ -31,18 +31,17 @@ html,body {
   display: inline-block;
   background-image: url(../svg/feed_ic_message_normal@3x_f2ea949f.png);
   background-position: -4px 83px;
-  width: 25px;
-  height: 20px;
+  width: calc(100rem / 64);
+  height: calc(77rem / 64);
   background-size: 29px;
   margin-left: 30px;
   margin-top: 17px;
 }
 .onepart-left .sou {
-  /* display: inline-block; */
   background-image: url(../svg/feed_ic_search_normal@3x_0f198e56.png);
   background-position: -4px 83px;
-  width: 25px;
-  height: 20px;
+  width: calc(78rem / 64);
+  height: calc(78rem /64);
   background-size: 29px;
   margin-right: 30px;
   margin-top: 17px;
@@ -54,8 +53,8 @@ html,body {
 .onepart-right .today {
   background-image: url(../svg/wap_logo@3x_581de69e.png);
   background-position: 0px 82px;
-  width: 85px;
-  height: 20px;
+  width: calc(340rem / 64);
+  height: calc(80rem / 64);
   background-size: 84px;
   margin-left: 52px;
   margin-top: 17px;
@@ -63,10 +62,10 @@ html,body {
 }
 .onepart-right .gen {
   background-image: url(../svg/titlebar_refresh_small@3x_96fb31e4.png);
-  background-position: -1px 80px;
+  background-position: 1px 75px;
   width: 16px;
   height: 15px;
-  background-size: 16px;
+  background-size: 15px;
   margin-left: 4px;
   margin-top: 20px;
   float: right;
@@ -80,12 +79,12 @@ html,body {
 
 .twopart-box {
   width: 100%;
-  height: 45px;
+  height: calc(149rem / 64);
   background-color: #f0f0f0;
 }
 .twopart-box ul {
   width: 100%;
-  height: 45px;
+  height: calc(149rem / 64);
   padding: 0;
   margin: 0;
 
@@ -108,6 +107,22 @@ html,body {
   background-image: url(../font/font_fam3qcve7k/iconfont.svg);
   background-position: 15px 15px;
 }
+.threepart {
+  width: 100%;
+  height: 100%;
+  margin-top:97px;    
+  /* background-color: red; */
+  z-index: 1;
+}
+.threepart-box h3 {
+  font-size: 18px;
+  z-index: 1.5;
+}
+.threepart-box-main li {
+  width: 33.33333333%;
+  height: 12px;
+}
+
 
 
 
@@ -119,13 +134,41 @@ html,body {
   left: 0;
   bottom: 0;
   width: 100%;
-  /* height: 44px; */
-  background-color: red;
+  height: 65px;
+  /* background-color: red; */
 }
-.footerpart-box span {
+.container {
   width: 100%;
-  background-color: yellow;
+}
+.footerpart-box-left {
+  display: inline-block;
+  margin-top: 15px;
+}
+.footerpart-box-left i {
+  display: inline-block;
+  width: 43px;
+  height: 29px;
+  background-image: url(../svg/banner_toutiao_icon_bce0b302.png);
+  background-position: 42px -2px;
+  background-size: 39px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.footerpart-box-left a {
+  margin-left: 15px;
+  text-decoration: none;
+  padding-bottom: -53px;
+  color: black;
 }
 .footerpart-box-right {
+  width: 67px;
+  height: 24px;
+  background-color: red;
   float: right;
+  text-align: center;
+  border-radius: 40px;
+  margin-right: 15px;
+  color: #fff;
+  padding: 3px;
+  margin-top: 20px;
 }
