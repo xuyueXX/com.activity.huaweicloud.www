@@ -258,6 +258,100 @@
   margin-right: -92px;
   line-height: 80px;
 }
+.sixpart-box {
+  width: 100%;
+  height: 300px;
+}
+.sixpart-box ul {
+  width: 100%;
+  height: 300px;
+}
+.sixpart-box li {
+  width: 33.33333%;
+  height: 125px;
+  float: right;
+  margin-top:50px;
+}
+.sixpart-box li>h3 {
+  font-size: 18px;
+  font-weight: 650;
+}
+.sixpart-box li>p {
+  margin-top: 15px;
+  color: #706d7e;
+}
+
+.pc img{
+  width: 100%;
+  height: 260px;
+}
+
+.help-box{
+  width: 100%;
+  height: 200px;
+}
+.help-box ul {
+  width: 100%;
+  height: 200px;
+
+}
+.help-box li {
+  width: 33.33333%;
+  height: 200px;
+  float: left;
+
+}
+.jiage {
+  background-image: url(../img/help1.jpg);
+}
+.shiyan {
+  background-image: url(../img/help2.jpg);
+}
+.wenti {
+  background-image: url(../img/help3.jpg);
+}
+.help {
+  height: 265px;
+  margin-bottom: 50px;
+}
+.help-title {
+  width: 100%;
+  height: 50px;
+}
+.help-title {
+  text-align: center;
+  margin: 20px auto;
+  line-height: 45px;
+  font-size: 22px;
+}
+.help-box h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.help-box-ESC {
+  width: 100%;
+  height: 108px;
+  margin-top: 39px;
+  background-color: #5e5956;
+}
+.help-box-ESC span {
+  color: #fff;
+  overflow: hidden;
+  margin-top: 90px;
+}
+.help-box-ESC .three {
+  background-color: #4a5d63;
+}
+.help-box-ESC .one {
+  background-color: #354352;
+}
+.help-box-ESC .two {
+  background-color: #5e5956;
+}
+
+
 
 .sevenpart {
   background-color: #212634;

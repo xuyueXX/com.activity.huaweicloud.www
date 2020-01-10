@@ -119,6 +119,7 @@ margin-left: 5px;
 }
 .twopart-box span {
     margin-left: 15px;
+    color: #fff;
 }
 .chinese:hover {
     height: 45px;
@@ -212,8 +213,8 @@ margin-left: 5px;
     text-align: center;
     line-height: 22px;
     float: left;
-}
 
+}
 .bd{
     background: rgba(246, 111, 106, 0.1);
     
@@ -221,6 +222,17 @@ margin-left: 5px;
 .ad {
     color: #f66f6a;
 }
+
+
+
+
+
+
+
+
+
+
+
 .sixthpart {
     height: 100%;
     background-color: #f3f8ff;

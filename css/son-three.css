@@ -19,7 +19,6 @@ body {
 }
 .firstpart-two-left {
   float: right;
-
 }
 .firstpart-two button {
   float: left;
@@ -129,12 +128,11 @@ body {
   margin-top: -24px;
   height: 95px;
 }
-.stand{
+.stand {
   width: 73px;
   height: 41px;
   margin-left: -24px;
   text-align: center;
-
 }
 .ch-z {
   position: absolute;
@@ -147,19 +145,22 @@ body {
   margin-top: -29px;
 }
 .twopart {
-  width: 100%; 
+  width: 100%;
   height: 60px;
-  background-color: #252b3a; 
+  background-color: #252b3a;
   border-top: 1px solid #3b414e;
+}
+.twopart .J {
+  margin-top: 101px;
+  width: 100%;
 }
 .twopart img {
   margin-top: 101px;
   width: 100%;
 }
-.twopart-box  {
+.twopart-box {
   width: 100%;
   height: 100%;
-
 }
 .twopart-box ul {
   width: 100%;
@@ -171,9 +172,8 @@ body {
 .twopart-box span {
   font-size: 14px;
   color: #fff;
-
 }
-.twopart-box li{
+.twopart-box li {
   float: left;
   display: block;
   padding: 15px 15px;
@@ -214,7 +214,7 @@ body {
 .fourpart-box-left {
   margin-left: 0;
   border-right: none;
-  width: calc(66.66667% - 0.5rem);
+  width: calc(64.66667% - 0.5rem);
   display: inline-block;
 }
 .fourpart-box-left h3 {
@@ -235,16 +235,37 @@ body {
   float: right;
   margin-left: 0;
   width: 33.3333%;
-  background-color: red;
+  /* background-color: red; */
+  margin-top: 20px;
+  padding: 8px 0;
+  border-left: 1px solid #dddddd;
+}
+.fourpart-box-right ul {
+  padding-left: 40px;
+}
+.fourpart-box-right ul li {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 18px;
+}
+.fourpart-box-right ul li:last-child {
+  margin-bottom: 0;
+}
+.fourpart-box-right ul img {
+  vertical-align: top;
+  margin-right: 8px;
+}
+.fourpart-box-right span {
+  float: left;
+  width: 151px;
 }
 .fourpart-box-right .zhou {
   width: 50%;
-  color: #252b3a!important;
+  color: #252b3a !important;
   margin-bottom: 0;
   font-size: 14px;
- 
 }
-.fifthpart:first-child{
+.fifthpart:first-child {
   margin-top: 30px;
 }
 .fifthpart-box {
@@ -266,11 +287,10 @@ body {
 .fifthpart-box-left img {
   width: 283px;
   height: 157px;
-
 }
 .fifthpart-box-left a {
   /* float: right; */
-  margin:  auto;
+  margin: auto;
 }
 .fifthpart-box-center {
   display: inline-block;
@@ -304,15 +324,14 @@ body {
   height: 20px;
   margin-top: 20px;
 }
-.fifthpart-box-see a>i {
+.fifthpart-box-see a > i {
   position: absolute;
-  content: ""!important;
+  content: "" !important;
   width: 14px;
   height: 7px;
   left: 43px;
   top: 7px;
   background: url(../svg/training-path-arrow.svg) no-repeat;
-  
 }
 .fifthpart-box-right {
   display: inline-block;
@@ -332,11 +351,6 @@ body {
   color: #fff;
 }
 
-
-
-
-
-
 .sevenpart {
   background-color: #212634;
   height: 90px;
@@ -352,55 +366,54 @@ body {
   margin-right: auto;
 }
 .one-box {
-position: relative;
-width: 100%;
-height: 90px;
+  position: relative;
+  width: 100%;
+  height: 90px;
 }
-.one-box  li i {
-position: absolute;
-/* left: 67px; */
-top: 50%;
-width: 40px;
-height: 40px;
-margin-top: -20px;
-background-size: 100% 100%;
+.one-box li i {
+  position: absolute;
+  /* left: 67px; */
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  background-size: 100% 100%;
 }
-.one-box .zhong{
-background-image: url(../svg/footer-support.svg);
+.one-box .zhong {
+  background-image: url(../svg/footer-support.svg);
 }
 .one-box .zhong-a {
-background-image: url(../svg/footer-unsub.svg);
+  background-image: url(../svg/footer-unsub.svg);
 }
 .one-box .zhong-b {
-background-image: url(../svg/footer-record.svg);
+  background-image: url(../svg/footer-record.svg);
 }
 .one-box .zhong-c {
-background-image: url(../svg/footer-feedback.svg);
+  background-image: url(../svg/footer-feedback.svg);
 }
 .one-box .zhong-d {
-background-image: url(../svg/footer-vip.svg);
+  background-image: url(../svg/footer-vip.svg);
 }
 .one-box ul {
-float: left;
-color: #ffffff;
-margin: 28px 67px;
+  float: left;
+  color: #ffffff;
+  margin: 28px 67px;
 }
 .one-box li {
-float: left;
-width: 209px;
+  float: left;
+  width: 209px;
 }
 .one-box li h2 {
-font-size: 20px;
-color: #fff;
-margin-left: 50px;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 50px;
 }
 .one-box li p {
-font-size: 14px;
-font-weight: normal;
-color: #a3a5ac;
-margin-top: 10px;
-margin-left: 50px;
-
+  font-size: 14px;
+  font-weight: normal;
+  color: #a3a5ac;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 .eightpart {
   width: 100%;
@@ -450,7 +463,7 @@ margin-left: 50px;
 .eightpart-right {
   float: right;
   margin-top: 25px;
-  border-left:1px solid #454850;
+  border-left: 1px solid #454850;
 }
 .eightpart-right dl {
   float: left;
@@ -499,7 +512,6 @@ margin-left: 50px;
 }
 .tenpart-box {
   margin-top: 15px;
-  
 }
 .tenpart-box span {
   margin-right: 15px;
@@ -509,5 +521,3 @@ margin-left: 50px;
   margin-right: 5px;
   color: #ffffff;
 }
-
-
